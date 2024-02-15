@@ -17,13 +17,13 @@ try:
 	import grequests
 	import requests
 	import colorama
+	from strgen import StringGenerator as SG
+	from colorama import init
+	from colorama import Fore, Back, Style
 except ModuleNotFoundError:
 	print("Import Error. Please Install Modules. (requirements.txt)")
 	input("Enter to exit")
 	quit()
-from strgen import StringGenerator as SG
-from colorama import init
-from colorama import Fore, Back, Style
 
 # Functions
 
