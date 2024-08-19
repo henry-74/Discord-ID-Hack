@@ -32,7 +32,7 @@ def fix_base64(fix):
 	fixed = fix1.replace("'", "")
 	return fixed
 
-def enter_id():
+def enter_id(933455767867105280):
 	try:
 		userid = int(input(f"{Style.RESET_ALL}Enter User ID To {Fore.RED}Hack{Style.RESET_ALL} >>> {Fore.CYAN}"))
 	except ValueError:
